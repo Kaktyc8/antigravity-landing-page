@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AirLift - Design Studio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="light-bg">
+  
+  <header class="navbar dark-bg">
+    <div class="container nav-container">
+      <div class="logo">
+        <!-- SVG Logo placeholder based on screenshot -->
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="vertical-align: middle; margin-right: 8px;">
+          <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20Z" fill="#ccff33"/>
+          <path d="M15 10C15 10 13.5 11.5 12 11.5C10.5 11.5 9 10 9 10" stroke="#ccff33" stroke-width="2" stroke-linecap="round"/>
+          <path d="M16 14C16 14 14 16 12 16C10 16 8 14 8 14" stroke="#ccff33" stroke-width="2" stroke-linecap="round"/>
+          <path d="M14 6C14 6 13 7 12 7C11 7 10 6 10 6" stroke="#ccff33" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <span class="logo-text" style="vertical-align: middle;">AirLift</span>
+      </div>
+      <nav class="nav-links">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero-section dark-bg section-pad">
+    <div class="container" style="display: flex; align-items: center; position: relative;">
+      
+      <!-- Left side text -->
+      <div class="hero-content">
+        <h1 class="hero-title">A design studio<br>creating cool solutions</h1>
+        <div class="hero-actions pt-8">
+          <a href="#contact" class="btn btn-primary" style="margin-right: 24px;">Start a project <span class="arrow-up-right">↗</span></a>
+          <a href="#work" class="btn-link text-white">View our works <span class="arrow-up-right">↗</span></a>
+        </div>
+      </div>
+
+      <!-- Right side images -->
+      <div class="hero-image-wrapper">
+        <img id="main-hero-img" src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1200&q=80" alt="Main Hero Image">
+        
+        <div class="hero-stack">
+          <!-- The clickable sub-content that powers the Hero Swap -->
+          <div id="sub-hero-container" class="thumbnail-wrapper">
+            <img id="sub-hero-img" src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=400&q=80" alt="Thumbnail 1">
+          </div>
+          <div class="thumbnail-wrapper">
+             <img src="https://images.unsplash.com/photo-1600570881640-57551ab66e74?w=400&q=80" alt="Thumbnail 2">
+          </div>
+          <div class="thumbnail-wrapper">
+             <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=400&q=80" alt="Thumbnail 3">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about-section section-pad light-bg">
+    <div class="container about-grid">
+      <div class="about-left">
+        <p class="section-label">• Who are we?</p>
+      </div>
+      <div class="about-right">
+        <h2 id="who-we-are-text" class="scroll-fill-text black mb-8">We're a chill web design and branding agency that kicked things off in 2020. Our goal? To connect with people, share our know-how, and pick up a few awards while we're at it</h2>
+        
+        <div>
+           <a href="#about" class="btn btn-primary mb-8">About us <span>↗</span></a>
+        </div>
+
+        <div class="stats-grid mt-8">
+          <div class="stat-blurb text-muted" style="max-width: 200px; font-size: 0.9rem;">
+            Boost sales and help your business grow effortlessly.
+          </div>
+          <div class="stat-item">
+            <h3 class="stat-num">10+</h3>
+            <p class="stat-label">Year of expertise</p>
+          </div>
+          <div class="stat-item">
+            <h3 class="stat-num">5+</h3>
+            <p class="stat-label">Provide services</p>
+          </div>
+          <div class="stat-item">
+            <h3 class="stat-num">400+</h3>
+            <p class="stat-label">Employee</p>
+          </div>
+          <div class="stat-item">
+            <h3 class="stat-num">99%</h3>
+            <p class="stat-label">Client satisfaction</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="work" class="work-section section-pad light-bg">
+    <div class="container">
+      <h2 class="section-title massive-text">Featured Work</h2>
+      
+      <div class="work-grid mt-8">
+        <div class="work-card">
+           <div class="work-img-wrapper">
+             <img src="https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=800" alt="Pink bags">
+           </div>
+          <div class="work-info">
+            <p class="text-muted">2022 • Gray Matter</p>
+            <h3>Revamping TechCo's website!</h3>
+          </div>
+        </div>
+        <div class="work-card">
+           <div class="work-img-wrapper">
+             <img src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800" alt="Perfume bottle">
+           </div>
+          <div class="work-info">
+            <p class="text-muted">2025 • Framer Development</p>
+            <h3>Perfume Website Design</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="services-section section-pad dark-bg">
+    <div class="container">
+      <div class="services-header mb-8">
+        <p class="section-label">• What we do</p>
+        <h2 class="massive-text services-heading">How we can help your<br>business level up</h2>
+        <div class="services-subtext">
+          <p class="text-muted mb-4">We're a digital marketing agency dedicated to helping you grow your business.</p>
+          <a href="#services" class="btn btn-primary">See all services <span>↗</span></a>
+        </div>
+      </div>
+
+      <div class="services-content mt-8">
+        <div class="service-img-wrapper">
+          <img id="service-img" src="https://images.unsplash.com/photo-1542744094-24638ea0b3b5" alt="Service">
+        </div>
+        <div class="service-list-wrapper">
+          <ul class="accordion-list">
+            <li tabindex="0" role="button" data-img="https://images.unsplash.com/photo-1505740420928-5e560c06d30e">Product design</li>
+            <li tabindex="0" role="button" class="active" data-img="https://images.unsplash.com/photo-1542744094-24638ea0b3b5">Brand strategy</li>
+            <li tabindex="0" role="button" data-img="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d">Video editing</li>
+            <li tabindex="0" role="button" data-img="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe">3D Animation</li>
+            <li tabindex="0" role="button" data-img="https://images.unsplash.com/photo-1618761714954-0b8cd0026356">Web design</li>
+            <li tabindex="0" role="button" data-img="https://images.unsplash.com/photo-1557838923-2985c318be48">Advertising</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq-section section-pad light-bg">
+    <div class="container faq-grid">
+      <div class="faq-left">
+        <p class="section-label mb-2">• Faq</p>
+        <h2 class="massive-text">Frequently Asked<br>Questions</h2>
+      </div>
+      <div class="faq-right">
+        <div class="faq-list">
+          <div class="faq-item active" tabindex="0" role="button" aria-expanded="true">
+            <div class="faq-question"><h3>What services do you offer?</h3><span class="faq-icon"></span></div>
+            <div class="faq-answer"><p>We specialize in a range of digital marketing services including SEO, PPC, social media management, content creation, email marketing, and comprehensive digital strategy development tailored to your business needs.</p></div>
+          </div>
+          <div class="faq-item" tabindex="0" role="button" aria-expanded="false">
+            <div class="faq-question"><h3>How do you measure success in digital marketing?</h3><span class="faq-icon"></span></div>
+            <div class="faq-answer"><p>We track KPIs like conversion rates, CPA, and traffic to ensure constant ROI.</p></div>
+          </div>
+          <div class="faq-item" tabindex="0" role="button" aria-expanded="false">
+            <div class="faq-question"><h3>How long does it take to see results from digital marketing?</h3><span class="faq-icon"></span></div>
+            <div class="faq-answer"><p>SEO takes 3-6 months. Paid ads show initial results immediately and scale within weeks.</p></div>
+          </div>
+          <div class="faq-item" tabindex="0" role="button" aria-expanded="false">
+            <div class="faq-question"><h3>Do you offer custom strategies or use pre-built templates?</h3><span class="faq-icon"></span></div>
+            <div class="faq-answer"><p>We craft 100% custom strategies tailored precisely to your specific business and market vertical.</p></div>
+          </div>
+          <div class="faq-item" tabindex="0" role="button" aria-expanded="false">
+            <div class="faq-question"><h3>How do I know if my digital marketing campaigns are working?</h3><span class="faq-icon"></span></div>
+            <div class="faq-answer"><p>You'll receive detailed monthly reports showing exact metrics, cost per acquisition, and overall ROI.</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container partner-logos mt-12">
+      <div class="logo-strip">
+        <h3 class="partner-text">✵ Nietzsche</h3>
+        <h3 class="partner-text">❖ Mastermail</h3>
+        <h3 class="partner-text">✦ Elasticware</h3>
+        <h3 class="partner-text">✚ Clandestine</h3>
+        <h3 class="partner-text">♜ Leapyear</h3>
+        <h3 class="partner-text">▚ Codecraft</h3>
+      </div>
+    </div>
+  </section>
+
+  <section class="ceo-section dark-bg">
+    <div class="ceo-bg-image" style="background-image: url('https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=2000&q=80');"></div>
+    <div class="container ceo-container">
+      <div class="ceo-content">
+        <p class="section-label mb-4 text-muted">• From CEO</p>
+        <h2 id="ceo-text" class="scroll-fill-text white massive-text CEO-text">At Creative Waves, we're a chill team of web designers and brand strategists who kicked off our adventure in 2020. Our goal? To connect with amazing people, impart our knowledge, and earn some accolades while we're at it.</h2>
+      </div>
+
+      <div class="video-card-floater">
+        <div class="video-thumbnail">
+          <img src="https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=400" alt="Video Thumb">
+          <div class="play-btn">▶</div>
+        </div>
+        <div class="video-label">WATCH VIDEO</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials-section section-pad light-bg">
+    <div class="container testimonials-layout">
+      
+      <div class="testimonials-left">
+        <p class="section-label mb-2">• Testimonials</p>
+        <h2 class="massive-text mb-8">Customer testimonials</h2>
+        <div class="slider-controls pt-8">
+          <button id="slide-prev" class="btn-icon">❮</button>
+          <button id="slide-next" class="btn-icon">❯</button>
+        </div>
+      </div>
+
+      <div class="testimonials-right">
+        <!-- Testimonial slider setup -->
+        <div class="testimonials-slider-container">
+          <div class="testimonials-track" id="testimonials-track">
+            
+            <div class="testimonial-slide">
+              <div class="testimonial-card">
+                <div class="quote-icon">“</div>
+                <p class="test-text">"We were skeptical when we started, but AirLift delivered more than promised. boosted conversions by 45%, and our customers are actually commenting on how easy the site is to use."</p>
+                <div class="test-author">
+                  <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100" alt="James">
+                  <div class="author-info">
+                    <h4>James Parker</h4>
+                    <p>Data Analyst, Insightful Analytics.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="testimonial-slide">
+              <div class="testimonial-card">
+                <div class="quote-icon">“</div>
+                <p class="test-text">"What sets AirLift apart is their attention to detail and genuine care for our goals. They listened, adapted and always kept us informed. Working with them felt effortless."</p>
+                <div class="test-author">
+                  <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100" alt="William">
+                  <div class="author-info">
+                    <h4>William James</h4>
+                    <p>CMO, Startup Inc.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-slide">
+              <div class="testimonial-card">
+                <div class="quote-icon">“</div>
+                <p class="test-text">"They took our outdated 90s website and turned it into an absolute masterpiece. I cannot recommend their design team enough for any rebranding needs!"</p>
+                <div class="test-author">
+                  <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100" alt="Liam">
+                  <div class="author-info">
+                    <h4>Liam Hemsworth</h4>
+                    <p>CEO, TechCorp.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-slide">
+              <div class="testimonial-card">
+                 <div class="quote-icon">“</div>
+                <p class="test-text">"From the first strategy meeting to the launch of our new ad campaigns, the transparency was stellar. We've seen a 3x return on ad spend."</p>
+                <div class="test-author">
+                  <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100" alt="Sophia">
+                  <div class="author-info">
+                    <h4>Sophia Chang</h4>
+                    <p>Director of Marketing.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <section id="blog" class="blog-section section-pad light-bg">
+    <div class="container">
+      
+      <div class="blog-grid-main mb-8">
+        <div class="blog-item">
+          <img src="https://images.unsplash.com/photo-1664575602276-acd073f104c1?w=600" alt="Blog 1">
+          <div class="blog-content">
+            <p class="text-muted">• 3 min read</p>
+            <h3>Revamp Your Brand: Here's Why Good Web Design is a Big Deal!</h3>
+          </div>
+        </div>
+        <div class="blog-item">
+          <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=600" alt="Blog 2">
+          <div class="blog-content">
+            <p class="text-muted">• 5 min read</p>
+            <h3>5 Must-Have Features for a Killer eCommerce Website</h3>
+          </div>
+        </div>
+        <div class="blog-item">
+          <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=600" alt="Blog 3">
+          <div class="blog-content">
+            <p class="text-muted">• 8 min read</p>
+            <h3>Web Design in 2024: What's Hot and What's Not!</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="blog-grid-secondary">
+        <div class="blog-promo-text">
+          <p class="section-label mb-2">• Blog</p>
+          <h2 class="massive-text mb-4">The latest stories<br>from our design studio</h2>
+          <a href="#blog" class="btn btn-primary mt-4">View the blog <span>↗</span></a>
+        </div>
+        <div class="blog-item">
+          <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=600" alt="Blog 4">
+          <div class="blog-content">
+            <p class="text-muted">• 4 min read</p>
+            <h3>Top 5 Features That Make Your eCommerce Site Unforgettable</h3>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer dark-bg section-pad">
+    <div class="container">
+      <div class="footer-top mb-12">
+        <div class="logo">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="vertical-align: middle; margin-right: 8px;">
+            <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20Z" fill="#fff"/>
+            <path d="M15 10C15 10 13.5 11.5 12 11.5C10.5 11.5 9 10 9 10" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+            <path d="M16 14C16 14 14 16 12 16C10 16 8 14 8 14" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+            <path d="M14 6C14 6 13 7 12 7C11 7 10 6 10 6" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          <span class="logo-text text-white font-bold" style="vertical-align: middle;">AirLift</span>
+        </div>
+        <a href="mailto:hello@airlift.com" class="footer-email">hello@airlift.com</a>
+      </div>
+
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Sitemap</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Work single (CMS)</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Blog single (CMS)</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#">Terms of services</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Utility</h4>
+          <ul>
+            <li><a href="#">Password protection</a></li>
+            <li><a href="#">404 not found</a></li>
+            <li><a href="#">Licences</a></li>
+          </ul>
+        </div>
+        <div class="footer-col footer-newsletter">
+          <div class="input-group">
+            <span class="icon">✉</span>
+            <input type="email" placeholder="E-mail">
+          </div>
+          <button class="btn btn-primary mt-4">Get Notified</button>
+        </div>
+      </div>
+
+      <div class="footer-bottom mt-8">
+        <p>&copy; 2026 Created by AirLiftTemplate & Powered by Workflow. All rights reserved.</p>
+        <div class="social-links">
+          <a href="#">in</a>
+          <a href="#">X</a>
+          <a href="#">ig</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+<script>
+// 1. FAQ Accordion Logic
+function toggleFaq(item) {
+    const isActive = item.classList.contains('active');
+    document.querySelectorAll('.faq-item').forEach(faq => {
+        faq.classList.remove('active');
+        faq.setAttribute('aria-expanded', 'false');
+    });
+    if (!isActive) {
+        item.classList.add('active');
+        item.setAttribute('aria-expanded', 'true');
+    }
+}
+document.querySelectorAll('.faq-item').forEach(item => {
+    item.addEventListener('click', () => toggleFaq(item));
+    item.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            toggleFaq(item);
+        }
+    });
+});
+
+// 2. Services Image Swap
+const serviceListItems = document.querySelectorAll('.accordion-list li');
+const serviceImg = document.getElementById('service-img');
+function selectService(li) {
+    serviceListItems.forEach(item => item.classList.remove('active'));
+    li.classList.add('active');
+    serviceImg.src = li.getAttribute('data-img');
+}
+serviceListItems.forEach(li => {
+    li.addEventListener('click', () => selectService(li));
+    li.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            selectService(li);
+        }
+    });
+});
+
+// 3. Testimonials Slider
+const track = document.getElementById('testimonials-track');
+const slides = document.querySelectorAll('.testimonial-slide');
+let currentSlideIndex = 0;
+
+function updateSlider() {
+    // 4 slides total visually. They take up 50% width on Desktop or 100% on mobile.
+    // Let's assume standard mobile/desktop sliding logic moving by percent.
+    const maxIndex = slides.length - 2; // Keep 2 visible (if desktop)
+    
+    if (currentSlideIndex > maxIndex) currentSlideIndex = 0;
+    if (currentSlideIndex < 0) currentSlideIndex = maxIndex;
+
+    track.style.transform = `translateX(-${currentSlideIndex * (100 / slides.length)}%)`;
+}
+
+document.getElementById('slide-next').addEventListener('click', () => {
+    currentSlideIndex++; updateSlider();
+});
+document.getElementById('slide-prev').addEventListener('click', () => {
+    currentSlideIndex--; updateSlider();
+});
+setInterval(() => {
+    currentSlideIndex++; updateSlider();
+}, 20000);
+
+// 4. Hero Swap
+document.getElementById('sub-hero-container').addEventListener('click', () => {
+    const mainImg = document.getElementById('main-hero-img');
+    const subImg = document.getElementById('sub-hero-img');
+    const tempSrc = mainImg.src;
+    mainImg.src = subImg.src;
+    subImg.src = tempSrc;
+});
+
+// 5. Scroll "Fill" Animation
+const scrollTexts = document.querySelectorAll('.scroll-fill-text');
+window.addEventListener('scroll', () => {
+    requestAnimationFrame(() => {
+        const wh = window.innerHeight;
+        scrollTexts.forEach(el => {
+            const rect = el.getBoundingClientRect();
+            // Start at bottom of screen, end at middle
+            const start = wh;
+            const end = wh / 2;
+            let progress = (start - rect.top) / (start - end);
+            progress = Math.max(0, Math.min(1, progress));
+            el.style.setProperty('--scroll-progress', `${progress * 100}%`);
+        });
+    });
+});
+</script>
+
+</body>
+</html>
